@@ -15,6 +15,8 @@ clicking these will toggle 3 new menus.<br>
 ![click](https://dl.dropboxusercontent.com/u/161826274/mySites/mac/images/click.PNG)
 
 desktop icons can be dragged.
+![desk](https://dl.dropboxusercontent.com/u/161826274/mySites/mac/images/desk-icon.PNG)
+
 
 ===
 
