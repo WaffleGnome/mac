@@ -22,6 +22,7 @@ desktop icons can be dragged.<br>
 
 TODO
 ===
+- tidy up code
 - add more user functionality
-- abilty to rename app
+- abilty to rename apps
 - animation and click effects
