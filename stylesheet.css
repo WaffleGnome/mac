@@ -1,0 +1,101 @@
+div{
+    text-align:center;
+}
+html{
+    background: url(images/mac-desktop.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow:hidden;
+}
+#safari{
+    position:absolute;
+  border-radius:6px;
+  padding-top:50px;
+  height:450px;
+  width:705px;
+  background-color:grey;
+  margin-left:30%;
+  margin-top:3%;
+}
+button{
+  margin-top:-0px;
+  height:20px;
+  width:20px;
+  border: 3px solid rgba(255, 0, 0, 0);
+  border-radius:3px;
+}
+#nav-bar{
+    margin-top:-40px;
+}
+input{
+  border-radius:10px;
+}
+#address{
+  width:350px;
+}
+#address:after{
+  content:"";
+  height:90px;
+  width:90px;
+  background-color:yellow;
+  z-index:100px;
+}
+#search{
+  width:200px;
+}
+iframe{
+  background-color:rgb(247, 247, 248);
+  height:400px;
+  width:700px;
+}
+#go{
+  margin-left:-25px;
+  margin-top:4px;
+  position:absolute;
+}
+#taskbar li{
+    padding-left:10px;
+    list-style-type: none;
+    display:inline;
+}
+#content{
+    position: absolute;
+    bottom:0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);  
+    margin-left:33%;
+}
+#content:after{
+    content:"";
+    position:absolute;
+    z-index:-5;
+    margin-top:-52px;
+    margin-left:-285px;
+    border-bottom: 60px solid #5f5d5d;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0px;
+	width: 600px;
+}
+img{
+    height:70px;
+}
+div{
+    text-align:center;
+}
+table{
+    position:absolute;
+}
+figcaption{
+    color:white;
+    text-align:center;
+}
+#itunes{
+    height:450px;
+    width:705px;
+}
+#folder2{
+    height:450px;
+    width:705px;
+}

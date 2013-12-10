@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <script src="src/jquery-1.9.1.js"></script>
+        <script src="src/jquery-ui.js"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+          <div id="safari" class="stack">  
+    
+            <div id ="nav-bar" >
+              <div style="margin-left:-600px;">
+              <button style="background-color:red; border-radius:40px; height:15px; width:13px;"></button>
+              <button style="background-color:yellow; border-radius:40px; height:15px; width:13px;"></button>
+              <button style="background-color:green; border-radius:40px; height:15px; width:13px;"></button></div>
+              
+              
+              <button></button>
+              <button></button>
+              <button></button>
+              <button></button>
+              <input type="text" id="address" placeholder="http://static.bbci.co.uk/frameworks/barlesque/2.58.1/desktop/3.5/img/blq-blocks_grey_alpha.png"/>
+              <button id="go" style="background-color:yellow; border-radius:40px;" onclick="site()"></button>
+              <input type="text" id="search"/></div><br>
+              <iframe src="http://www.bbc.com" id="IFRAME"></iframe>
+              
+           </div>
+            
+        <div id="content" class="stack">
+            <ul id="taskbar">
+                <li id="itunes_icon"><img src="images/itunes.png" alt=""></li>
+                <li id="safari_icon"><img src="images/safari.png" alt=""></li>
+                <li id="folder_toggle"><img src="images/folder.png" alt=""></li>
+                <li><img src="images/chat_video.png" alt=""></li>
+                <li><img src="images/apple_finder.png" alt=""></li>
+                <li><img src="images/23_full_trash.png" alt=""></li>
+            </ul>
+        </div>
+           
+        <table>
+            <tr>
+                <td><img src="images/grid.png" alt=""><figcaption>vector</figcaption></td>
+                <td><img src="images/text.png" alt=""><figcaption>text editor</figcaption></td>
+                <td><img src="images/pic.png" alt=""><figcaption>photos</figcaption></td>
+                <td><img src="images/apple_festival_app_itune.png" alt=""><figcaption>music store</figcaption></td>
+            </tr>
+            <tr>
+                <td><img src="images/folders_apps.png" alt=""><figcaption>tools</figcaption></td>
+                <td><img src="images/apple_festival_app_store.png" alt=""><figcaption>app store</figcaption></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><img src="images/draw.png" alt=""><figcaption>draw</figcaption></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>    
+        
+        <img src="http://cdn.arstechnica.net/wp-content/uploads/2012/11/itunes5.jpg" alt="" id="itunes" class="hide">
+        <img src="images/folder2.png" alt="" id="folder2">
+    
+    </body>
+</html>
+<script>
+    // get users screen size
+    //winH = window.body.offsetHeight;
+    //$("#content").css( "margin-top",  "" + winH-100 +"px");
+    $("#safari").hide();
+    $("#itunes").hide();
+    $("#folder2").hide();
+    
+    
+    $("#safari").draggable({ stack: ".stack" });
+    $("td").draggable();
+    $("#itunes").draggable({ stack: ".stack" });
+    $("#folder2").draggable({ stack: ".stack" });
+    
+    $("#safari_icon").click(function(){
+        $("#safari").toggle();
+    });
+    $("#itunes_icon").click(function(){
+        $("#itunes").toggle();
+    });
+    $("#folder_toggle").click(function(){
+        $("#folder2").toggle();
+    });
+    
+    function site(){
+            document.getElementById('IFRAME').src = document.getElementById('address').value;    
+    }
+   
+</script>
