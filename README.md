@@ -5,9 +5,11 @@ The following site was made as an [challenge](http://www.codecademy.com/groups/h
 
 
 To view the site just click on:<br>
-[THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/mac/master/main.html) or  [THE DROPBOX VERSION]https://dl.dropboxusercontent.com/u/161826274/mySites/mac/main.html) of the site.
+[THE GITHUB VERSION](https://rawgithub.com/WaffleGnome/mac/master/main.html) 
+or  
+[THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/mac/main.html) of the site.
 
----------------------
+===
 
 clicking these will toggle 3 new menus.
 ![click][12]
