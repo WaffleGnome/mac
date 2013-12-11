@@ -11,7 +11,7 @@ or  <br>
 
 ===
 
-clicking these will toggle 3 new menus.<br>
+clicking these will toggle 3 new menus. Clcik them again to close the window<br>
 ![click](https://dl.dropboxusercontent.com/u/161826274/mySites/mac/images/click.PNG)
 
 desktop icons can be dragged.<br>
@@ -26,3 +26,4 @@ TODO
 - add more user functionality
 - abilty to rename apps
 - animation and click effects
+- add close, restore down and minimize buttons on apps
