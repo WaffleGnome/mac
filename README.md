@@ -26,11 +26,14 @@ TODO
 - abilty to rename apps
 - animation and click effects
 - add close, restore down and minimize buttons on apps
-- 
+
+
 
 -------------------------------
 
+
 TOOLS
 ======
+
 
 the icons used are from [findicons](http://findicons.com/)
