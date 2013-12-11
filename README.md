@@ -9,7 +9,7 @@ To view the site just click on:<br>
 or  <br>
 [THE DROPBOX VERSION](https://dl.dropboxusercontent.com/u/161826274/mySites/mac/main.html) of the site.
 
-===
+-------------------------
 
 clicking these will toggle 3 new menus. Clcik them again to close the window<br>
 ![click](https://dl.dropboxusercontent.com/u/161826274/mySites/mac/images/click.PNG)
@@ -17,8 +17,7 @@ clicking these will toggle 3 new menus. Clcik them again to close the window<br>
 desktop icons can be dragged.<br>
 ![desk](https://dl.dropboxusercontent.com/u/161826274/mySites/mac/images/desk-icon.PNG)
 
-
-===
+---------------------------
 
 TODO
 ===
@@ -27,3 +26,8 @@ TODO
 - abilty to rename apps
 - animation and click effects
 - add close, restore down and minimize buttons on apps
+- 
+
+TOOLS
+======
+the icons used are from [findicons](http://findicons.com/)
