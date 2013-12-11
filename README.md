@@ -17,6 +17,8 @@ clicking these will toggle 3 new menus. Clcik them again to close the window<br>
 desktop icons can be dragged.<br>
 ![desk](https://dl.dropboxusercontent.com/u/161826274/mySites/mac/images/desk-icon.PNG)
 
+the openable windows can also be dragged.
+
 ---------------------------
 
 TODO
