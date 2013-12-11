@@ -11,7 +11,7 @@ or  <br>
 
 -------------------------
 
-clicking these will toggle 3 new menus. Clcik them again to close the window<br>
+clicking these will toggle 3 new menus. Click them again to close the window<br>
 ![click](https://dl.dropboxusercontent.com/u/161826274/mySites/mac/images/click.PNG)
 
 desktop icons can be dragged.<br>
